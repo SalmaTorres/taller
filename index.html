@@ -1,30 +1,39 @@
 <!DOCTYPE html>
-<html lang="es">
-<head> <!--Informacion para el navegador-->
-    <meta charset="UTF-8"> <!--Para que no existan simbolos raros-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mi primer sitio web</title> <!--Como lo buscara google-->
+    <title>Document</title>
+    <link rel="stylesheet" href="miarchivo.css">
 </head>
 <body>
-    <h1>MI PRIMERA PAGINA</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt nostrum doloremque ab eos cupiditate aliquam omnis fugit dicta atque laudantium sit, nisi fugiat asperiores at error sequi odit quia facere.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae omnis maiores, sint magni, inventore nesciunt modi accusantium voluptatem vel asperiores facilis possimus repudiandae rerum mollitia non eius! Dolores, porro!</p>
-    <ul> <!--ul>li*4-->
-        <li>uno</li>
-        <li>dos</li>
-        <li>tres</li>
-        <li>cuatro</li>
-    </ul>
-    <p class="foo"></p> <!--p.foo-->
-    <!--<div>Utilizando m3v por primera vez<div>
-    <p>Existe un error?</p>-->
-    <div style="background-color: rgb(193, 143, 240); border: 5px solid black;">
-        Elemnto de bloque
+    <div id="header" style="background-color: rgb(12, 12, 90);">  
+        <div id="nav" style="background-color: rgb(39, 71, 141);">
+            <ul>
+                <li><a href="https://www.youtube.com/" style="color: greenyellow;">Enlace 1</a></li>
+                <li><a>Enlace 2</a></li>
+                <li><a>Enlace 3</a></li>
+            </ul>
+        </div>
     </div>
-    <span style="background-color: rgb(255, 155, 242);">Hola</span>
-    <span style="background-color: yellow;">Mundo</span> 
-    <div style="background-color: aquamarine;">Cruel</div>
-    <p style="background-color: palevioletred;">Bloque</p>
-    <p style="background-color: rgb(204, 198, 245);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, odit! Esse asperiores maiores ratione culpa aliquid expedita suscipit nam, incidunt mollitia molestiae quo hic eius id voluptate corporis modi. Nobis.</p>
+    <div id="aside-left" style="background-color: rgb(197, 167, 117);">
+        ASIDE-LEFT
+    </div>
+    <div id="main" style="background-color: rgb(185, 95, 158);">
+        <div id="article" style="background-color: rgb(187, 98, 157);">
+            <div id="section1" style="background-color: rgb(201, 148, 189);">
+                Lorem ipsum dolor sit amet, <span class="keyword">consectetur</span>consectetur adipisicing elit. Id, ullam ipsum ipsam architecto labore expedita eius optio officiis dolores dolore exercitationem nihil hic facilis, facere velit ab! Ea, tenetur laborum?
+            </div>
+            <div id="section2" style="background-color: rgb(230, 191, 230);">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus provident at distinctio itaque. Harum sed <span class="keyword">exercitationem</span> amet voluptates id odio? Similique ipsam debitis impedit atque, deserunt dignissimos a soluta aut.
+            </div>
+        </div>
+    </div>
+    <div id="aside-right" style="background-color: rgb(197, 167, 117);">
+        ASIDE-RIGHT
+    </div>
+    <div id="footer" style="background-color: rgb(12, 12, 90);">
+        © 2018, UCB
+    </div>
 </body>
 </html>
